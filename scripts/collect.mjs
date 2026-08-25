@@ -7,6 +7,8 @@ import { validateSnapshot } from "../lib/schema.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const providers = JSON.parse(await readFile(resolve(root, "config/providers.json"), "utf8"));
+const pricing = JSON.parse(await readFile(resolve(root, "config/pricing.json"), "utf8"));
+validatePricingCatalogue(pricing);
 const currentPath = resolve(root, "data/current.json"), historyPath = resolve(root, "data/history.json");
 const previous = validateSnapshot(JSON.parse(await readFile(currentPath, "utf8")));
 const observedAt = new Date().toISOString();
@@ -28,7 +30,7 @@ for (const provider of providers) {
   }
 }
 
-const nextModels = normalizeModels(models);
+const nextModels = normalizeModels(models.map(model => applyPricing(model, pricing)));
 // The first observation is a baseline, not evidence that every listed model launched today.
 const events = previous.checkedAt === null ? [] : diffSnapshots(previous.models, nextModels, observedAt);
 const history = JSON.parse(await readFile(historyPath, "utf8"));
@@ -37,3 +39,37 @@ async function atomicJson(path, value) { const temp = `${path}.tmp`; await write
 await atomicJson(currentPath, next);
 await atomicJson(historyPath, [...history, ...events]);
 console.log(JSON.stringify({ checkedAt: observedAt, models: nextModels.length, events: events.length, runs }));
+
+function applyPricing(model, catalogue) {
+  const providerModelId = model.id.slice(model.provider.length + 1);
+  const entry = catalogue.entries.find(candidate => candidate.provider === model.provider && candidate.modelIds.includes(providerModelId));
+  if (!entry) return model;
+  return {
+    ...model,
+    pricing: {
+      currency: "USD",
+      unit: "million_tokens",
+      input: entry.input,
+      cachedInput: entry.cachedInput,
+      output: entry.output,
+      batchInput: entry.batchInput,
+      batchOutput: entry.batchOutput,
+      source: entry.source,
+      observedAt: catalogue.observedAt
+    }
+  };
+}
+
+function validatePricingCatalogue(catalogue) {
+  if (catalogue.schemaVersion !== 1 || !Number.isFinite(Date.parse(catalogue.observedAt)) || !Array.isArray(catalogue.entries)) throw new TypeError("invalid pricing catalogue");
+  const keys = new Set();
+  for (const entry of catalogue.entries) {
+    if (typeof entry.provider !== "string" || !Array.isArray(entry.modelIds) || entry.modelIds.length === 0 || !URL.canParse(entry.source)) throw new TypeError("invalid pricing entry");
+    for (const field of ["input", "cachedInput", "output", "batchInput", "batchOutput"]) if (entry[field] !== null && (!Number.isFinite(entry[field]) || entry[field] < 0)) throw new TypeError(`invalid ${field} price`);
+    for (const modelId of entry.modelIds) {
+      const key = `${entry.provider}:${modelId}`;
+      if (keys.has(key)) throw new TypeError(`duplicate pricing entry: ${key}`);
+      keys.add(key);
+    }
+  }
+}
