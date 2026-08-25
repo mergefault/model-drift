@@ -20,7 +20,7 @@ const runs = Array.isArray(snapshot.runs) ? snapshot.runs : [];
 $("health").innerHTML = runs.map(run => `<article class="health-item"><span class="health-dot ${escape(run.status)}"></span><div><strong>${escape(run.provider)}</strong><small>${escape(runSummary(run))}</small></div></article>`).join("");
 const days = Array.from({ length: 30 }, (_, index) => { const day = new Date(Date.now() - (29 - index) * 864e5).toISOString().slice(0, 10); return [day, recent.filter(event => event.occurredAt.startsWith(day)).length]; });
 const maximum = Math.max(1, ...days.map(([, count]) => count));
-$("activity").innerHTML = days.map(([day, count]) => `<span class="bar ${count ? "" : "zero"}" style="height:${Math.max(1, count / maximum * 100)}%" title="${day}: ${count}"></span>`).join("");
+$("activity").innerHTML = activityChart(days, maximum);
 for (const provider of [...providers].sort()) $("provider").insertAdjacentHTML("beforeend", `<option>${escape(provider)}</option>`);
 
 function renderModels() {
@@ -47,6 +47,16 @@ $("drift").innerHTML = events.map(event => `<article class="event"><strong>${esc
 $("empty-drift").hidden = events.length > 0;
 
 function runSummary(run) { if (run.status === "succeeded") return `${run.models} models`; if (run.status === "failed") return run.error || "collection failed"; return run.reason || run.status; }
+function activityChart(values, maximum) {
+  const width = 900, height = 132, baseline = 96, chartHeight = 76, step = width / values.length, barWidth = Math.max(4, step - 6);
+  const bars = values.map(([day, count], index) => {
+    const barHeight = count ? Math.max(3, count / maximum * chartHeight) : 1;
+    const x = index * step + (step - barWidth) / 2;
+    return `<rect x="${x}" y="${baseline - barHeight}" width="${barWidth}" height="${barHeight}" fill="${count ? "#63e6be" : "#26313a"}"><title>${day}: ${count} change${count === 1 ? "" : "s"}</title></rect>`;
+  }).join("");
+  const labels = values.map(([day], index) => index % 5 === 0 || index === values.length - 1 ? `<text x="${index * step + step / 2}" y="120" fill="#8fa0ad" font-size="10" text-anchor="middle">${day.slice(5)}</text>` : "").join("");
+  return `<svg viewBox="0 0 ${width} ${height}" width="100%" height="100%" role="img" aria-label="Daily changes from ${values[0][0]} through ${values.at(-1)[0]}"><line x1="0" y1="${baseline}" x2="${width}" y2="${baseline}" stroke="#26313a"/>${bars}${labels}</svg>`;
+}
 function isDatedSnapshot(model) { return /(?:^|[-_.])20\d{2}(?:[-_.]?\d{2}){0,2}$/.test(model.name) || /(?:^|[-_.])\d{4}$/.test(model.name); }
 function classify(model) { const value = `${model.id} ${model.name}`.toLowerCase(); if (/embed/.test(value)) return "embedding"; if (/moderation|safety/.test(value)) return "moderation"; if (/tts|whisper|transcri|audio|speech|voice/.test(value)) return "audio"; if (/image|dall-e|imagen|sora|video|veo/.test(value)) return "image"; if (/rerank|classif|aqa|research|computer-use/.test(value)) return "specialized"; return "generation"; }
 function snapshotCount(model) { if (isDatedSnapshot(model)) return 0; const stem = model.name.replace(/[-_.](latest|preview|experimental|exp)$/i, ""); return snapshot.models.filter(candidate => candidate.provider === model.provider && candidate.id !== model.id && isDatedSnapshot(candidate) && candidate.name.startsWith(stem)).length; }
