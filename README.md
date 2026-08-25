@@ -4,6 +4,8 @@ Source-backed tracking of AI model releases, lifecycle, capabilities, availabili
 
 The repository runs provider collectors once per day, validates and normalizes their output, computes deterministic field-level changes, and publishes the resulting JSON through a dependency-free GitHub Pages dashboard.
 
+The dashboard keeps the complete source dataset but hides dated snapshots by default, classifies model types using transparent identifier rules, paginates the inventory, and reports the latest provider collection health. The first successful collection establishes a baseline rather than recording every existing model as a new release.
+
 ## Coverage
 
 Collectors use official authenticated model-list APIs. OpenAI, Anthropic, Google Gemini, xAI, DeepSeek, Mistral, and Cohere are configured; each runs only when its repository secret is present. Meta/Llama, Qwen, Kimi, MiniMax, and Zhipu/GLM remain explicitly disabled until a stable authoritative source is configured.

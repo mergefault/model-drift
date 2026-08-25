@@ -29,7 +29,8 @@ for (const provider of providers) {
 }
 
 const nextModels = normalizeModels(models);
-const events = diffSnapshots(previous.models, nextModels, observedAt);
+// The first observation is a baseline, not evidence that every listed model launched today.
+const events = previous.checkedAt === null ? [] : diffSnapshots(previous.models, nextModels, observedAt);
 const history = JSON.parse(await readFile(historyPath, "utf8"));
 const next = validateSnapshot({ schemaVersion: 1, checkedAt: observedAt, models: nextModels, runs });
 async function atomicJson(path, value) { const temp = `${path}.tmp`; await writeFile(temp, `${JSON.stringify(value, null, 2)}\n`); await rename(temp, path); }

@@ -1,13 +1,54 @@
-const [snapshot, history] = await Promise.all([fetch("data/current.json").then(requireOk).then(r=>r.json()),fetch("data/history.json").then(requireOk).then(r=>r.json())]);
-const $=id=>document.getElementById(id), fmtDate=value=>value?new Intl.DateTimeFormat(undefined,{dateStyle:"medium",timeStyle:"short"}).format(new Date(value)):"—", fmtTokens=value=>value?new Intl.NumberFormat(undefined,{notation:"compact"}).format(value):"—", money=value=>value===null?"—":`$${Number(value).toFixed(value<1?3:2)}`;
-function requireOk(response){if(!response.ok)throw new Error(`Data request failed: ${response.status}`);return response}
-const cutoff=Date.now()-30*864e5,recent=history.filter(event=>Date.parse(event.occurredAt)>=cutoff),providers=new Set(snapshot.models.map(model=>model.provider));
-$("updated").textContent=snapshot.checkedAt?`Last checked ${fmtDate(snapshot.checkedAt)}`:"Awaiting first collection";
-$("metrics").innerHTML=[[providers.size,"Providers observed"],[snapshot.models.length,"Models observed"],[recent.filter(e=>e.type==="MODEL_ADDED").length,"New · 30d"],[recent.length,"Changes · 30d"]].map(([n,label])=>`<article class="metric"><strong>${n}</strong><span>${label}</span></article>`).join("");
-const days=Array.from({length:30},(_,i)=>{const d=new Date(Date.now()-(29-i)*864e5).toISOString().slice(0,10);return [d,recent.filter(e=>e.occurredAt.startsWith(d)).length]});const max=Math.max(1,...days.map(([,n])=>n));$("activity").innerHTML=days.map(([day,n])=>`<span class="bar ${n?"":"zero"}" style="height:${Math.max(1,n/max*100)}%" title="${day}: ${n}"></span>`).join("");
-for(const provider of [...providers].sort()) $("provider").insertAdjacentHTML("beforeend",`<option>${escape(provider)}</option>`);
-function renderModels(){const q=$("search").value.toLowerCase(),p=$("provider").value,s=$("status").value;const models=snapshot.models.filter(m=>(!q||`${m.name} ${m.id}`.toLowerCase().includes(q))&&(!p||m.provider===p)&&(!s||m.status===s));$("models").innerHTML=models.map(m=>`<tr><td>${escape(m.provider)}</td><td>${escape(m.name)}</td><td>${fmtTokens(m.contextWindow)}</td><td>${escape([...m.modalities.input,...m.modalities.output].join(", ")||"—")}</td><td><span class="status">${escape(m.status)}</span></td><td><a href="${safeUrl(m.source.url)}" rel="noreferrer">source ↗</a></td></tr>`).join("");$("empty-models").hidden=models.length>0}
-for(const id of ["search","provider","status"])$(id).addEventListener("input",renderModels);renderModels();
-const priced=snapshot.models.filter(m=>[m.pricing.input,m.pricing.cachedInput,m.pricing.output,m.pricing.batchInput,m.pricing.batchOutput].some(v=>v!==null));$("pricing").innerHTML=priced.map(m=>`<tr><td>${escape(m.provider)}</td><td>${escape(m.name)}</td><td>${money(m.pricing.input)}</td><td>${money(m.pricing.cachedInput)}</td><td>${money(m.pricing.output)}</td><td>${money(m.pricing.batchInput)}</td><td>${money(m.pricing.batchOutput)}</td></tr>`).join("");$("empty-pricing").hidden=priced.length>0;
-const events=[...history].reverse().slice(0,50);$("drift").innerHTML=events.map(e=>`<article class="event"><strong>${escape(e.type.replaceAll("_"," "))}</strong><span>${escape(e.modelId)}${e.field?` · ${escape(e.field)}`:""}</span><a href="${safeUrl(e.evidence.url)}" rel="noreferrer"><time>${fmtDate(e.occurredAt)}</time> ↗</a></article>`).join("");$("empty-drift").hidden=events.length>0;
-function escape(value){return String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c])}function safeUrl(value){try{const u=new URL(value);return u.protocol==="https:"?u.href:"#"}catch{return"#"}}
+const [snapshot, history] = await Promise.all([
+  fetch("data/current.json").then(requireOk).then(response => response.json()),
+  fetch("data/history.json").then(requireOk).then(response => response.json())
+]);
+const $ = id => document.getElementById(id);
+const pageSize = 30;
+let page = 1;
+const fmtDate = value => value ? new Intl.DateTimeFormat(undefined, { dateStyle: "medium", timeStyle: "short" }).format(new Date(value)) : "—";
+const fmtTokens = value => value ? new Intl.NumberFormat(undefined, { notation: "compact" }).format(value) : "—";
+const money = value => value === null ? "—" : `$${Number(value).toFixed(value < 1 ? 3 : 2)}`;
+function requireOk(response) { if (!response.ok) throw new Error(`Data request failed: ${response.status}`); return response; }
+
+const cutoff = Date.now() - 30 * 864e5;
+const recent = history.filter(event => Date.parse(event.occurredAt) >= cutoff);
+const providers = new Set(snapshot.models.map(model => model.provider));
+$("updated").textContent = snapshot.checkedAt ? `Last checked ${fmtDate(snapshot.checkedAt)}` : "Awaiting first collection";
+$("metrics").innerHTML = [[providers.size, "Providers observed"], [snapshot.models.length, "Models observed"], [recent.filter(event => event.type === "MODEL_ADDED").length, "New · 30d"], [recent.length, "Changes · 30d"]].map(([number, label]) => `<article class="metric"><strong>${number}</strong><span>${label}</span></article>`).join("");
+
+const runs = Array.isArray(snapshot.runs) ? snapshot.runs : [];
+$("health").innerHTML = runs.map(run => `<article class="health-item"><span class="health-dot ${escape(run.status)}"></span><div><strong>${escape(run.provider)}</strong><small>${escape(runSummary(run))}</small></div></article>`).join("");
+const days = Array.from({ length: 30 }, (_, index) => { const day = new Date(Date.now() - (29 - index) * 864e5).toISOString().slice(0, 10); return [day, recent.filter(event => event.occurredAt.startsWith(day)).length]; });
+const maximum = Math.max(1, ...days.map(([, count]) => count));
+$("activity").innerHTML = days.map(([day, count]) => `<span class="bar ${count ? "" : "zero"}" style="height:${Math.max(1, count / maximum * 100)}%" title="${day}: ${count}"></span>`).join("");
+for (const provider of [...providers].sort()) $("provider").insertAdjacentHTML("beforeend", `<option>${escape(provider)}</option>`);
+
+function renderModels() {
+  const query = $("search").value.toLowerCase(), provider = $("provider").value, kind = $("kind").value, status = $("status").value, includeSnapshots = $("snapshots").checked;
+  const filtered = snapshot.models.filter(model => (!query || `${model.name} ${model.id}`.toLowerCase().includes(query)) && (!provider || model.provider === provider) && (!kind || classify(model) === kind) && (!status || model.status === status) && (includeSnapshots || !isDatedSnapshot(model)));
+  const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
+  page = Math.min(page, pages);
+  const start = (page - 1) * pageSize;
+  const models = filtered.slice(start, start + pageSize);
+  $("models").innerHTML = models.map(model => `<tr><td>${escape(model.provider)}</td><td>${escape(model.name)}${snapshotCount(model) ? `<small class="versions">${snapshotCount(model)} dated version${snapshotCount(model) === 1 ? "" : "s"}</small>` : ""}</td><td>${escape(classify(model))}</td><td>${fmtTokens(model.contextWindow)}</td><td>${escape([...model.modalities.input, ...model.modalities.output].join(", ") || "—")}</td><td><span class="status">${escape(model.status)}</span></td><td><a href="${safeUrl(model.source.url)}" rel="noreferrer">source ↗</a></td></tr>`).join("");
+  $("model-count").textContent = filtered.length ? `${start + 1}–${Math.min(start + pageSize, filtered.length)} of ${filtered.length}` : "0 models";
+  $("prev").disabled = page === 1; $("next").disabled = page === pages; $("empty-models").hidden = models.length > 0;
+}
+for (const id of ["search", "provider", "kind", "status", "snapshots"]) $(id).addEventListener("input", () => { page = 1; renderModels(); });
+$("prev").addEventListener("click", () => { page--; renderModels(); });
+$("next").addEventListener("click", () => { page++; renderModels(); });
+renderModels();
+
+const priced = snapshot.models.filter(model => [model.pricing.input, model.pricing.cachedInput, model.pricing.output, model.pricing.batchInput, model.pricing.batchOutput].some(value => value !== null));
+$("pricing").innerHTML = priced.map(model => `<tr><td>${escape(model.provider)}</td><td>${escape(model.name)}</td><td>${money(model.pricing.input)}</td><td>${money(model.pricing.cachedInput)}</td><td>${money(model.pricing.output)}</td><td>${money(model.pricing.batchInput)}</td><td>${money(model.pricing.batchOutput)}</td></tr>`).join("");
+$("empty-pricing").hidden = priced.length > 0;
+const events = [...history].reverse().slice(0, 50);
+$("drift").innerHTML = events.map(event => `<article class="event"><strong>${escape(event.type.replaceAll("_", " "))}</strong><span>${escape(event.modelId)}${event.field ? ` · ${escape(event.field)}` : ""}</span><a href="${safeUrl(event.evidence.url)}" rel="noreferrer"><time>${fmtDate(event.occurredAt)}</time> ↗</a></article>`).join("");
+$("empty-drift").hidden = events.length > 0;
+
+function runSummary(run) { if (run.status === "succeeded") return `${run.models} models`; if (run.status === "failed") return run.error || "collection failed"; return run.reason || run.status; }
+function isDatedSnapshot(model) { return /(?:^|[-_.])20\d{2}(?:[-_.]?\d{2}){0,2}$/.test(model.name) || /(?:^|[-_.])\d{4}$/.test(model.name); }
+function classify(model) { const value = `${model.id} ${model.name}`.toLowerCase(); if (/embed/.test(value)) return "embedding"; if (/moderation|safety/.test(value)) return "moderation"; if (/tts|whisper|transcri|audio|speech|voice/.test(value)) return "audio"; if (/image|dall-e|imagen|sora|video|veo/.test(value)) return "image"; if (/rerank|classif|aqa|research|computer-use/.test(value)) return "specialized"; return "generation"; }
+function snapshotCount(model) { if (isDatedSnapshot(model)) return 0; const stem = model.name.replace(/[-_.](latest|preview|experimental|exp)$/i, ""); return snapshot.models.filter(candidate => candidate.provider === model.provider && candidate.id !== model.id && isDatedSnapshot(candidate) && candidate.name.startsWith(stem)).length; }
+function escape(value) { return String(value).replace(/[&<>"']/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]); }
+function safeUrl(value) { try { const url = new URL(value); return url.protocol === "https:" ? url.href : "#"; } catch { return "#"; } }
