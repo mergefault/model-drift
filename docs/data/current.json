@@ -1,7 +1,3687 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-25T07:22:58.177Z",
+  "checkedAt": "2026-08-25T07:38:59.283Z",
   "models": [
+    {
+      "id": "deepseek:deepseek-v4-flash",
+      "provider": "deepseek",
+      "name": "deepseek-v4-flash",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "label": "DeepSeek API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "deepseek:deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "name": "deepseek-v4-flash-vision-exp",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "label": "DeepSeek API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "deepseek:deepseek-v4-pro",
+      "provider": "deepseek",
+      "name": "deepseek-v4-pro",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "label": "DeepSeek API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:antigravity-preview-05-2026",
+      "provider": "google",
+      "name": "Antigravity Agent Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:aqa",
+      "provider": "google",
+      "name": "Model that performs Attributed Question Answering.",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 7168,
+      "maxOutputTokens": 1024,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "generateAnswer"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:deep-research-max-preview-04-2026",
+      "provider": "google",
+      "name": "Deep Research Max Preview (Apr-21-2026)",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:deep-research-preview-04-2026",
+      "provider": "google",
+      "name": "Deep Research Preview (Apr-21-2026)",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:deep-research-pro-preview-12-2025",
+      "provider": "google",
+      "name": "Deep Research Pro Preview (Dec-12-2025)",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-computer-use-preview-10-2025",
+      "provider": "google",
+      "name": "Gemini 2.5 Computer Use Preview 10-2025",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-flash",
+      "provider": "google",
+      "name": "Gemini 2.5 Flash",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-flash-image",
+      "provider": "google",
+      "name": "Nano Banana",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 32768,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-flash-lite",
+      "provider": "google",
+      "name": "Gemini 2.5 Flash-Lite",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-flash-native-audio-latest",
+      "provider": "google",
+      "name": "Gemini 2.5 Flash Native Audio Latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "bidiGenerateContent",
+        "countTokens"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-flash-native-audio-preview-09-2025",
+      "provider": "google",
+      "name": "Gemini 2.5 Flash Native Audio Preview 09-2025",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "bidiGenerateContent",
+        "countTokens"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-flash-native-audio-preview-12-2025",
+      "provider": "google",
+      "name": "Gemini 2.5 Flash Native Audio Preview 12-2025",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "bidiGenerateContent",
+        "countTokens"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-flash-preview-tts",
+      "provider": "google",
+      "name": "Gemini 2.5 Flash Preview TTS",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 8192,
+      "maxOutputTokens": 16384,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-pro",
+      "provider": "google",
+      "name": "Gemini 2.5 Pro",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-2.5-pro-preview-tts",
+      "provider": "google",
+      "name": "Gemini 2.5 Pro Preview TTS",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 8192,
+      "maxOutputTokens": 16384,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3-flash-preview",
+      "provider": "google",
+      "name": "Gemini 3 Flash Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3-pro-image",
+      "provider": "google",
+      "name": "Nano Banana Pro",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3-pro-image-preview",
+      "provider": "google",
+      "name": "Nano Banana Pro",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.1-flash-image",
+      "provider": "google",
+      "name": "Nano Banana 2",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 65536,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.1-flash-image-preview",
+      "provider": "google",
+      "name": "Nano Banana 2",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 65536,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.1-flash-lite",
+      "provider": "google",
+      "name": "Gemini 3.1 Flash Lite",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.1-flash-lite-image",
+      "provider": "google",
+      "name": "Nano Banana 2 Lite",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 65536,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.1-flash-lite-preview",
+      "provider": "google",
+      "name": "Gemini 3.1 Flash Lite Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.1-flash-live-preview",
+      "provider": "google",
+      "name": "Gemini 3.1 Flash Live Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "bidiGenerateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.1-flash-tts-preview",
+      "provider": "google",
+      "name": "Gemini 3.1 Flash TTS Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 8192,
+      "maxOutputTokens": 16384,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.1-pro-preview",
+      "provider": "google",
+      "name": "Gemini 3.1 Pro Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.1-pro-preview-customtools",
+      "provider": "google",
+      "name": "Gemini 3.1 Pro Preview Custom Tools",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.5-flash",
+      "provider": "google",
+      "name": "Gemini 3.5 Flash",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.5-flash-lite",
+      "provider": "google",
+      "name": "Gemini 3.5 Flash Lite",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.5-live-translate-preview",
+      "provider": "google",
+      "name": "Gemini 3.5 Live Translate Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 16384,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "bidiGenerateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.6-flash",
+      "provider": "google",
+      "name": "Gemini 3.6 Flash",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-3.7-flash",
+      "provider": "google",
+      "name": "Gemini 3.7 Flash",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-embedding-001",
+      "provider": "google",
+      "name": "Gemini Embedding 001",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 2048,
+      "maxOutputTokens": 1,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "asyncBatchEmbedContent",
+        "countTextTokens",
+        "countTokens",
+        "embedContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-embedding-2",
+      "provider": "google",
+      "name": "Gemini Embedding 2",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 8192,
+      "maxOutputTokens": 1,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "asyncBatchEmbedContent",
+        "countTextTokens",
+        "countTokens",
+        "embedContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-embedding-2-preview",
+      "provider": "google",
+      "name": "Gemini Embedding 2 Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 8192,
+      "maxOutputTokens": 1,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "asyncBatchEmbedContent",
+        "countTextTokens",
+        "countTokens",
+        "embedContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-flash-latest",
+      "provider": "google",
+      "name": "Gemini Flash Latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-flash-lite-latest",
+      "provider": "google",
+      "name": "Gemini Flash-Lite Latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-omni-flash-preview",
+      "provider": "google",
+      "name": "Gemini Omni Flash Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-pro-latest",
+      "provider": "google",
+      "name": "Gemini Pro Latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-robotics-er-1.6-preview",
+      "provider": "google",
+      "name": "Gemini Robotics-ER 1.6 Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-robotics-er-2-preview",
+      "provider": "google",
+      "name": "Gemini Robotics-ER 2 Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemini-robotics-er-2-streaming-preview",
+      "provider": "google",
+      "name": "Gemini Robotics-ER 2 Streaming Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "bidiGenerateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemma-4-26b-a4b-it",
+      "provider": "google",
+      "name": "Gemma 4 26B A4B IT",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:gemma-4-31b-it",
+      "provider": "google",
+      "name": "Gemma 4 31B IT",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:lyria-3-clip-preview",
+      "provider": "google",
+      "name": "Lyria 3 Clip Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:lyria-3-pro-preview",
+      "provider": "google",
+      "name": "Lyria 3 Pro Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:nano-banana-pro-preview",
+      "provider": "google",
+      "name": "Nano Banana Pro",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:veo-3.1-fast-generate-preview",
+      "provider": "google",
+      "name": "Veo 3.1 fast",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 480,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "predictLongRunning"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:veo-3.1-generate-preview",
+      "provider": "google",
+      "name": "Veo 3.1",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 480,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "predictLongRunning"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "google:veo-3.1-lite-generate-preview",
+      "provider": "google",
+      "name": "Veo 3.1 lite",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 480,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "predictLongRunning"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:codestral-2508",
+      "provider": "mistral",
+      "name": "codestral-2508",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:codestral-embed",
+      "provider": "mistral",
+      "name": "codestral-embed",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:codestral-embed-2505",
+      "provider": "mistral",
+      "name": "codestral-embed-2505",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:codestral-latest",
+      "provider": "mistral",
+      "name": "codestral-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:devstral-2512",
+      "provider": "mistral",
+      "name": "devstral-2512",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:devstral-latest",
+      "provider": "mistral",
+      "name": "devstral-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:devstral-medium-latest",
+      "provider": "mistral",
+      "name": "devstral-medium-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:glm-5-2",
+      "provider": "mistral",
+      "name": "glm-5-2",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:labs-leanstral-1-5",
+      "provider": "mistral",
+      "name": "labs-leanstral-1-5",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:labs-leanstral-1-5-1",
+      "provider": "mistral",
+      "name": "labs-leanstral-1-5-1",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:magistral-medium-latest",
+      "provider": "mistral",
+      "name": "magistral-medium-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:magistral-small-latest",
+      "provider": "mistral",
+      "name": "magistral-small-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:ministral-14b-2512",
+      "provider": "mistral",
+      "name": "ministral-14b-2512",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:ministral-14b-latest",
+      "provider": "mistral",
+      "name": "ministral-14b-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:ministral-3b-2512",
+      "provider": "mistral",
+      "name": "ministral-3b-2512",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:ministral-3b-latest",
+      "provider": "mistral",
+      "name": "ministral-3b-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:ministral-8b-2512",
+      "provider": "mistral",
+      "name": "ministral-8b-2512",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:ministral-8b-latest",
+      "provider": "mistral",
+      "name": "ministral-8b-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-code-agent-latest",
+      "provider": "mistral",
+      "name": "mistral-code-agent-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-code-fim-latest",
+      "provider": "mistral",
+      "name": "mistral-code-fim-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-code-latest",
+      "provider": "mistral",
+      "name": "mistral-code-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-embed",
+      "provider": "mistral",
+      "name": "mistral-embed",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-embed-2312",
+      "provider": "mistral",
+      "name": "mistral-embed-2312",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-large-2512",
+      "provider": "mistral",
+      "name": "mistral-large-2512",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-large-latest",
+      "provider": "mistral",
+      "name": "mistral-large-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-medium",
+      "provider": "mistral",
+      "name": "mistral-medium",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-medium-2505",
+      "provider": "mistral",
+      "name": "mistral-medium-2505",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-medium-2508",
+      "provider": "mistral",
+      "name": "mistral-medium-2508",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-medium-2604",
+      "provider": "mistral",
+      "name": "mistral-medium-2604",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-medium-3",
+      "provider": "mistral",
+      "name": "mistral-medium-3",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-medium-3-5",
+      "provider": "mistral",
+      "name": "mistral-medium-3-5",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-medium-3.5",
+      "provider": "mistral",
+      "name": "mistral-medium-3.5",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-medium-latest",
+      "provider": "mistral",
+      "name": "mistral-medium-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-moderation-2603",
+      "provider": "mistral",
+      "name": "mistral-moderation-2603",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-ocr-2512",
+      "provider": "mistral",
+      "name": "mistral-ocr-2512",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-ocr-3",
+      "provider": "mistral",
+      "name": "mistral-ocr-3",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-ocr-3-0",
+      "provider": "mistral",
+      "name": "mistral-ocr-3-0",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-ocr-4",
+      "provider": "mistral",
+      "name": "mistral-ocr-4",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-ocr-4-0",
+      "provider": "mistral",
+      "name": "mistral-ocr-4-0",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-ocr-4-1",
+      "provider": "mistral",
+      "name": "mistral-ocr-4-1",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-ocr-latest",
+      "provider": "mistral",
+      "name": "mistral-ocr-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-small-2603",
+      "provider": "mistral",
+      "name": "mistral-small-2603",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-small-latest",
+      "provider": "mistral",
+      "name": "mistral-small-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-vibe-cli-fast",
+      "provider": "mistral",
+      "name": "mistral-vibe-cli-fast",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-vibe-cli-latest",
+      "provider": "mistral",
+      "name": "mistral-vibe-cli-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:mistral-vibe-cli-with-tools",
+      "provider": "mistral",
+      "name": "mistral-vibe-cli-with-tools",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:voxtral-mini-2602",
+      "provider": "mistral",
+      "name": "voxtral-mini-2602",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:voxtral-mini-latest",
+      "provider": "mistral",
+      "name": "voxtral-mini-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:voxtral-mini-realtime-2602",
+      "provider": "mistral",
+      "name": "voxtral-mini-realtime-2602",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:voxtral-mini-realtime-latest",
+      "provider": "mistral",
+      "name": "voxtral-mini-realtime-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:voxtral-mini-transcribe-realtime-2602",
+      "provider": "mistral",
+      "name": "voxtral-mini-transcribe-realtime-2602",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:voxtral-mini-tts-2603",
+      "provider": "mistral",
+      "name": "voxtral-mini-tts-2603",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:voxtral-mini-tts-latest",
+      "provider": "mistral",
+      "name": "voxtral-mini-tts-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:voxtral-small-2507",
+      "provider": "mistral",
+      "name": "voxtral-small-2507",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:voxtral-small-latest",
+      "provider": "mistral",
+      "name": "voxtral-small-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
+    {
+      "id": "mistral:zai-glm-5-2",
+      "provider": "mistral",
+      "name": "zai-glm-5-2",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      },
+      "observedAt": "2026-08-25T07:38:59.283Z"
+    },
     {
       "id": "openai:babbage-002",
       "provider": "openai",
@@ -32,7 +3712,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:chat-latest",
@@ -64,7 +3744,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:chatgpt-image-latest",
@@ -96,7 +3776,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:davinci-002",
@@ -128,7 +3808,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-3.5-turbo",
@@ -160,7 +3840,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-0125",
@@ -192,7 +3872,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-1106",
@@ -224,7 +3904,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-16k",
@@ -256,7 +3936,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-instruct",
@@ -288,7 +3968,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-instruct-0914",
@@ -320,7 +4000,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4.1",
@@ -352,7 +4032,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4.1-2025-04-14",
@@ -384,7 +4064,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4.1-mini",
@@ -416,7 +4096,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4.1-mini-2025-04-14",
@@ -448,7 +4128,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4.1-nano",
@@ -480,7 +4160,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4.1-nano-2025-04-14",
@@ -512,7 +4192,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o",
@@ -544,7 +4224,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-2024-05-13",
@@ -576,7 +4256,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-2024-08-06",
@@ -608,7 +4288,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-2024-11-20",
@@ -640,7 +4320,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini",
@@ -672,7 +4352,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini-2024-07-18",
@@ -704,7 +4384,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini-search-preview",
@@ -736,7 +4416,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini-search-preview-2025-03-11",
@@ -768,7 +4448,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini-transcribe",
@@ -800,7 +4480,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini-transcribe-2025-03-20",
@@ -832,7 +4512,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini-transcribe-2025-12-15",
@@ -864,7 +4544,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini-tts",
@@ -896,7 +4576,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini-tts-2025-03-20",
@@ -928,7 +4608,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-mini-tts-2025-12-15",
@@ -960,7 +4640,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-search-preview",
@@ -992,7 +4672,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-search-preview-2025-03-11",
@@ -1024,7 +4704,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-transcribe",
@@ -1056,7 +4736,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-4o-transcribe-diarize",
@@ -1088,7 +4768,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5",
@@ -1120,7 +4800,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-2025-08-07",
@@ -1152,7 +4832,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-chat-latest",
@@ -1184,7 +4864,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-codex",
@@ -1216,7 +4896,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-mini",
@@ -1248,7 +4928,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-mini-2025-08-07",
@@ -1280,7 +4960,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-nano",
@@ -1312,7 +4992,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-nano-2025-08-07",
@@ -1344,7 +5024,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-pro",
@@ -1376,7 +5056,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-pro-2025-10-06",
@@ -1408,7 +5088,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-search-api",
@@ -1440,7 +5120,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5-search-api-2025-10-14",
@@ -1472,7 +5152,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.1",
@@ -1504,7 +5184,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.1-2025-11-13",
@@ -1536,7 +5216,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.1-chat-latest",
@@ -1568,7 +5248,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.1-codex",
@@ -1600,7 +5280,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.1-codex-max",
@@ -1632,7 +5312,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.1-codex-mini",
@@ -1664,7 +5344,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.2",
@@ -1696,7 +5376,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.2-2025-12-11",
@@ -1728,7 +5408,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.2-chat-latest",
@@ -1760,7 +5440,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.2-codex",
@@ -1792,7 +5472,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.2-pro",
@@ -1824,7 +5504,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.2-pro-2025-12-11",
@@ -1856,7 +5536,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.3-chat-latest",
@@ -1888,7 +5568,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.3-codex",
@@ -1920,7 +5600,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.4",
@@ -1952,7 +5632,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.4-2026-03-05",
@@ -1984,7 +5664,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.4-mini",
@@ -2016,7 +5696,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.4-mini-2026-03-17",
@@ -2048,7 +5728,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.4-nano",
@@ -2080,7 +5760,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.4-nano-2026-03-17",
@@ -2112,7 +5792,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.4-pro",
@@ -2144,7 +5824,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.4-pro-2026-03-05",
@@ -2176,7 +5856,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.5",
@@ -2208,7 +5888,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.5-2026-04-23",
@@ -2240,7 +5920,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.5-pro",
@@ -2272,7 +5952,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.5-pro-2026-04-23",
@@ -2304,7 +5984,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.6-luna",
@@ -2336,7 +6016,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.6-sol",
@@ -2368,7 +6048,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-5.6-terra",
@@ -2400,7 +6080,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-audio",
@@ -2432,7 +6112,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-audio-1.5",
@@ -2464,7 +6144,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-audio-2025-08-28",
@@ -2496,7 +6176,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-audio-mini",
@@ -2528,7 +6208,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-audio-mini-2025-10-06",
@@ -2560,7 +6240,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-audio-mini-2025-12-15",
@@ -2592,7 +6272,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-image-1",
@@ -2624,7 +6304,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-image-1-mini",
@@ -2656,7 +6336,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-image-1.5",
@@ -2688,7 +6368,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-image-2",
@@ -2720,7 +6400,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-image-2-2026-04-21",
@@ -2752,7 +6432,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-live-transcribe",
@@ -2784,7 +6464,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime",
@@ -2816,7 +6496,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime-1.5",
@@ -2848,7 +6528,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime-2",
@@ -2880,7 +6560,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime-2.1",
@@ -2912,7 +6592,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime-2.1-mini",
@@ -2944,7 +6624,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime-2025-08-28",
@@ -2976,7 +6656,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime-mini",
@@ -3008,7 +6688,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime-mini-2025-12-15",
@@ -3040,7 +6720,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime-translate",
@@ -3072,7 +6752,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-realtime-whisper",
@@ -3104,7 +6784,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:gpt-transcribe",
@@ -3136,7 +6816,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:o1",
@@ -3168,7 +6848,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:o1-2024-12-17",
@@ -3200,7 +6880,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:o3",
@@ -3232,7 +6912,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:o3-2025-04-16",
@@ -3264,7 +6944,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:o3-mini",
@@ -3296,7 +6976,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:o3-mini-2025-01-31",
@@ -3328,7 +7008,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:o4-mini",
@@ -3360,7 +7040,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:o4-mini-2025-04-16",
@@ -3392,7 +7072,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:omni-moderation-2024-09-26",
@@ -3424,7 +7104,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:omni-moderation-latest",
@@ -3456,7 +7136,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:sora-2",
@@ -3488,7 +7168,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:sora-2-pro",
@@ -3520,7 +7200,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:text-embedding-3-large",
@@ -3552,7 +7232,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:text-embedding-3-small",
@@ -3584,7 +7264,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:text-embedding-ada-002",
@@ -3616,7 +7296,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:tts-1",
@@ -3648,7 +7328,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:tts-1-1106",
@@ -3680,7 +7360,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:tts-1-hd",
@@ -3712,7 +7392,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:tts-1-hd-1106",
@@ -3744,7 +7424,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     },
     {
       "id": "openai:whisper-1",
@@ -3776,7 +7456,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-08-25T07:22:58.177Z"
+      "observedAt": "2026-08-25T07:38:59.283Z"
     }
   ],
   "runs": [
@@ -3792,23 +7472,23 @@
     },
     {
       "provider": "google",
-      "status": "skipped",
-      "reason": "Missing GOOGLE_API_KEY"
+      "status": "succeeded",
+      "models": 50
     },
     {
       "provider": "xai",
-      "status": "skipped",
-      "reason": "Missing XAI_API_KEY"
+      "status": "failed",
+      "error": "HTTP 403 from api.x.ai"
     },
     {
       "provider": "deepseek",
-      "status": "skipped",
-      "reason": "Missing DEEPSEEK_API_KEY"
+      "status": "succeeded",
+      "models": 3
     },
     {
       "provider": "mistral",
-      "status": "skipped",
-      "reason": "Missing MISTRAL_API_KEY"
+      "status": "succeeded",
+      "models": 56
     },
     {
       "provider": "cohere",
