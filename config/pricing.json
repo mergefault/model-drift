@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-25T00:00:00.000Z",
+  "entries": [
+    { "provider": "openai", "modelIds": ["gpt-5.6", "gpt-5.6-sol"], "input": 4, "cachedInput": 0.4, "output": 20, "batchInput": null, "batchOutput": null, "source": "https://developers.openai.com/api/docs/models/compare" },
+    { "provider": "openai", "modelIds": ["gpt-5.6-terra"], "input": 2, "cachedInput": 0.2, "output": 12, "batchInput": null, "batchOutput": null, "source": "https://developers.openai.com/api/docs/models/compare" },
+    { "provider": "openai", "modelIds": ["gpt-5.6-luna"], "input": 0.2, "cachedInput": 0.02, "output": 1.2, "batchInput": null, "batchOutput": null, "source": "https://developers.openai.com/api/docs/models/gpt-5.6-luna" },
+    { "provider": "openai", "modelIds": ["gpt-5"], "input": 1.25, "cachedInput": 0.125, "output": 10, "batchInput": null, "batchOutput": null, "source": "https://developers.openai.com/api/docs/models/gpt-5" },
+    { "provider": "openai", "modelIds": ["gpt-5-nano"], "input": 0.05, "cachedInput": 0.005, "output": 0.4, "batchInput": null, "batchOutput": null, "source": "https://developers.openai.com/api/docs/models/gpt-5-nano" },
+    { "provider": "deepseek", "modelIds": ["deepseek-v4-flash"], "input": 0.14, "cachedInput": 0.0028, "output": 0.28, "batchInput": null, "batchOutput": null, "source": "https://www.deepseek.com/platform/" },
+    { "provider": "deepseek", "modelIds": ["deepseek-v4-pro"], "input": 0.435, "cachedInput": 0.003625, "output": 0.87, "batchInput": null, "batchOutput": null, "source": "https://www.deepseek.com/platform/" },
+    { "provider": "anthropic", "modelIds": ["claude-opus-4-6"], "input": 5, "cachedInput": 0.5, "output": 25, "batchInput": null, "batchOutput": null, "source": "https://platform.claude.com/docs/en/about-claude/pricing" },
+    { "provider": "anthropic", "modelIds": ["claude-sonnet-4-6"], "input": 3, "cachedInput": 0.3, "output": 15, "batchInput": null, "batchOutput": null, "source": "https://platform.claude.com/docs/en/about-claude/pricing" },
+    { "provider": "anthropic", "modelIds": ["claude-haiku-4-5"], "input": 1, "cachedInput": 0.1, "output": 5, "batchInput": null, "batchOutput": null, "source": "https://platform.claude.com/docs/en/about-claude/pricing" }
+  ]
+}
