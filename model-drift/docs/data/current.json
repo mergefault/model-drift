@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-25T07:05:27.359Z",
+  "models": [],
+  "runs": [
+    {
+      "provider": "openai",
+      "status": "skipped",
+      "reason": "Missing OPENAI_API_KEY"
+    },
+    {
+      "provider": "anthropic",
+      "status": "skipped",
+      "reason": "Missing ANTHROPIC_API_KEY"
+    },
+    {
+      "provider": "google",
+      "status": "skipped",
+      "reason": "Missing GOOGLE_API_KEY"
+    },
+    {
+      "provider": "xai",
+      "status": "skipped",
+      "reason": "Missing XAI_API_KEY"
+    },
+    {
+      "provider": "deepseek",
+      "status": "skipped",
+      "reason": "Missing DEEPSEEK_API_KEY"
+    },
+    {
+      "provider": "mistral",
+      "status": "skipped",
+      "reason": "Missing MISTRAL_API_KEY"
+    },
+    {
+      "provider": "cohere",
+      "status": "skipped",
+      "reason": "Missing COHERE_API_KEY"
+    },
+    {
+      "provider": "meta",
+      "status": "disabled",
+      "reason": "No stable authoritative model-list API configured"
+    },
+    {
+      "provider": "qwen",
+      "status": "disabled",
+      "reason": "No stable authoritative model-list API configured"
+    },
+    {
+      "provider": "kimi",
+      "status": "disabled",
+      "reason": "No stable authoritative model-list API configured"
+    },
+    {
+      "provider": "minimax",
+      "status": "disabled",
+      "reason": "No stable authoritative model-list API configured"
+    },
+    {
+      "provider": "zhipu",
+      "status": "disabled",
+      "reason": "No stable authoritative model-list API configured"
+    }
+  ]
+}

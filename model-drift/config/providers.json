@@ -1,0 +1,14 @@
+[
+  { "id": "openai", "name": "OpenAI", "enabled": true, "collector": "openai", "secret": "OPENAI_API_KEY" },
+  { "id": "anthropic", "name": "Anthropic", "enabled": true, "collector": "anthropic", "secret": "ANTHROPIC_API_KEY" },
+  { "id": "google", "name": "Google Gemini", "enabled": true, "collector": "google", "secret": "GOOGLE_API_KEY" },
+  { "id": "xai", "name": "xAI Grok", "enabled": true, "collector": "xai", "secret": "XAI_API_KEY" },
+  { "id": "deepseek", "name": "DeepSeek", "enabled": true, "collector": "deepseek", "secret": "DEEPSEEK_API_KEY" },
+  { "id": "mistral", "name": "Mistral", "enabled": true, "collector": "mistral", "secret": "MISTRAL_API_KEY" },
+  { "id": "cohere", "name": "Cohere", "enabled": true, "collector": "cohere", "secret": "COHERE_API_KEY" },
+  { "id": "meta", "name": "Meta Llama", "enabled": false, "reason": "No stable authoritative model-list API configured" },
+  { "id": "qwen", "name": "Alibaba Qwen", "enabled": false, "reason": "No stable authoritative model-list API configured" },
+  { "id": "kimi", "name": "Moonshot Kimi", "enabled": false, "reason": "No stable authoritative model-list API configured" },
+  { "id": "minimax", "name": "MiniMax", "enabled": false, "reason": "No stable authoritative model-list API configured" },
+  { "id": "zhipu", "name": "Zhipu GLM", "enabled": false, "reason": "No stable authoritative model-list API configured" }
+]

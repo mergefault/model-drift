@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Source-backed tracking of AI model releases, lifecycle, capabilities, availability, and pricing.">
+  <title>Model Drift</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><div><p class="eyebrow">MODEL ECOSYSTEM OBSERVATORY</p><h1>Model Drift</h1><p class="lede">Source-backed model releases, lifecycle, capabilities, availability, and pricing.</p></div><p id="updated" class="updated">Awaiting first collection</p></header>
+  <main>
+    <section aria-labelledby="overview-title"><h2 id="overview-title">Overview</h2><div id="metrics" class="metrics"></div></section>
+    <section aria-labelledby="activity-title"><div class="section-head"><div><h2 id="activity-title">Activity</h2><p>Observed changes over the last 30 days</p></div></div><div id="activity" class="activity" aria-label="30-day activity chart"></div></section>
+    <section aria-labelledby="models-title"><div class="section-head"><div><h2 id="models-title">Model inventory</h2><p>Unknown fields are left blank; values are never inferred.</p></div><div class="filters"><input id="search" type="search" placeholder="Search models" aria-label="Search models"><select id="provider" aria-label="Filter provider"><option value="">All providers</option></select><select id="status" aria-label="Filter status"><option value="">All statuses</option><option>active</option><option>deprecated</option><option>retired</option><option>unknown</option></select></div></div><div class="table-wrap"><table><thead><tr><th>Provider</th><th>Model</th><th>Context</th><th>Modalities</th><th>Status</th><th>Evidence</th></tr></thead><tbody id="models"></tbody></table></div><p id="empty-models" class="empty" hidden>No matching models.</p></section>
+    <section aria-labelledby="pricing-title"><div class="section-head"><div><h2 id="pricing-title">Pricing comparison</h2><p>USD per one million tokens; only directly comparable dimensions are shown.</p></div></div><div class="table-wrap"><table><thead><tr><th>Provider</th><th>Model</th><th>Input</th><th>Cached input</th><th>Output</th><th>Batch input</th><th>Batch output</th></tr></thead><tbody id="pricing"></tbody></table></div><p id="empty-pricing" class="empty" hidden>No authoritative comparable pricing has been collected.</p></section>
+    <section aria-labelledby="drift-title"><h2 id="drift-title">Recent drift</h2><div id="drift" class="drift"></div><p id="empty-drift" class="empty" hidden>No changes observed yet.</p></section>
+  </main>
+  <footer><p>Deterministic collection. Provider evidence. No inferred data.</p><a href="https://github.com/mergefault/model-drift">Source</a></footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
