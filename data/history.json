@@ -10957,5 +10957,103 @@
       "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
       "label": "Mistral API"
     }
+  },
+  {
+    "id": "2026-09-03T08:05:39.336Z:google:gemini-3.8-flash:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "google:gemini-3.8-flash",
+    "provider": "google",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "google:gemini-3.8-flash",
+      "provider": "google",
+      "name": "Gemini 3.8 Flash",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "occurredAt": "2026-09-03T08:05:39.336Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
+  },
+  {
+    "id": "2026-09-03T08:05:39.336Z:google:gemini-flash-latest-high-res-exp:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "google:gemini-flash-latest-high-res-exp",
+    "provider": "google",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "google:gemini-flash-latest-high-res-exp",
+      "provider": "google",
+      "name": "Gemini Flash Latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "createCachedContent",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "occurredAt": "2026-09-03T08:05:39.336Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
   }
 ]
