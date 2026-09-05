@@ -11239,5 +11239,49 @@
       "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
       "label": "Mistral API"
     }
+  },
+  {
+    "id": "2026-09-05T07:42:09.045Z:openai:gpt-6-astra:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "openai:gpt-6-astra",
+    "provider": "openai",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "openai:gpt-6-astra",
+      "provider": "openai",
+      "name": "gpt-6-astra",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "occurredAt": "2026-09-05T07:42:09.045Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
   }
 ]

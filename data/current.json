@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-04T08:00:54.773Z",
+  "checkedAt": "2026-09-05T07:42:09.045Z",
   "models": [
     {
       "id": "deepseek:deepseek-v4-flash",
@@ -32,7 +32,7 @@
         "url": "https://api-docs.deepseek.com/quick_start/pricing",
         "label": "DeepSeek API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "deepseek:deepseek-v4-flash-vision-exp",
@@ -64,7 +64,7 @@
         "url": "https://api-docs.deepseek.com/quick_start/pricing",
         "label": "DeepSeek API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "deepseek:deepseek-v4-pro",
@@ -96,7 +96,7 @@
         "url": "https://api-docs.deepseek.com/quick_start/pricing",
         "label": "DeepSeek API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:antigravity-preview-05-2026",
@@ -131,7 +131,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:aqa",
@@ -165,7 +165,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:deep-research-max-preview-04-2026",
@@ -200,7 +200,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:deep-research-preview-04-2026",
@@ -235,7 +235,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:deep-research-pro-preview-12-2025",
@@ -270,7 +270,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-computer-use-preview-10-2025",
@@ -305,7 +305,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-flash",
@@ -342,7 +342,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-flash-image",
@@ -378,7 +378,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-flash-lite",
@@ -415,7 +415,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-flash-native-audio-latest",
@@ -450,7 +450,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-flash-native-audio-preview-09-2025",
@@ -485,7 +485,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-flash-native-audio-preview-12-2025",
@@ -520,7 +520,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-flash-preview-tts",
@@ -555,7 +555,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-pro",
@@ -592,7 +592,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-2.5-pro-preview-tts",
@@ -628,7 +628,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3-flash-preview",
@@ -665,7 +665,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3-pro-image",
@@ -701,7 +701,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3-pro-image-preview",
@@ -737,7 +737,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.1-flash-image",
@@ -773,7 +773,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.1-flash-image-preview",
@@ -809,7 +809,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.1-flash-lite",
@@ -846,7 +846,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.1-flash-lite-image",
@@ -882,7 +882,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.1-flash-lite-preview",
@@ -919,7 +919,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.1-flash-live-preview",
@@ -953,7 +953,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.1-flash-tts-preview",
@@ -989,7 +989,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.1-pro-preview",
@@ -1026,7 +1026,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.1-pro-preview-customtools",
@@ -1063,7 +1063,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.5-flash",
@@ -1100,7 +1100,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.5-flash-lite",
@@ -1137,7 +1137,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.5-live-translate-preview",
@@ -1171,7 +1171,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.5-transcribe",
@@ -1206,7 +1206,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.5-transcribe-live",
@@ -1240,7 +1240,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.6-flash",
@@ -1277,7 +1277,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.7-flash",
@@ -1314,7 +1314,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-3.8-flash",
@@ -1351,7 +1351,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-embedding-001",
@@ -1388,7 +1388,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-embedding-2",
@@ -1425,7 +1425,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-embedding-2-preview",
@@ -1462,7 +1462,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-flash-latest",
@@ -1499,7 +1499,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-flash-lite-latest",
@@ -1536,7 +1536,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-omni-1.1-flash",
@@ -1571,7 +1571,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-omni-flash-preview",
@@ -1606,7 +1606,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-pro-latest",
@@ -1643,7 +1643,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-robotics-er-2-preview",
@@ -1680,7 +1680,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemini-robotics-er-2-streaming-preview",
@@ -1714,7 +1714,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemma-4-26b-a4b-it",
@@ -1749,7 +1749,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:gemma-4-31b-it",
@@ -1784,7 +1784,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:lyria-3-clip-preview",
@@ -1819,7 +1819,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:lyria-3-pro-preview",
@@ -1854,7 +1854,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:lyria-3.5",
@@ -1889,7 +1889,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:nano-banana-pro-preview",
@@ -1925,7 +1925,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:veo-3.1-fast-generate-preview",
@@ -1959,7 +1959,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:veo-3.1-generate-preview",
@@ -1993,7 +1993,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "google:veo-3.1-lite-generate-preview",
@@ -2027,7 +2027,7 @@
         "url": "https://ai.google.dev/gemini-api/docs/models",
         "label": "Google Gemini API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:codestral-2508",
@@ -2059,7 +2059,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:codestral-embed",
@@ -2091,7 +2091,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:codestral-embed-2505",
@@ -2123,7 +2123,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:codestral-latest",
@@ -2155,7 +2155,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:labs-leanstral-1-5",
@@ -2187,7 +2187,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:labs-leanstral-1-5-1",
@@ -2219,7 +2219,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:magistral-medium-latest",
@@ -2251,7 +2251,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:magistral-small-latest",
@@ -2283,7 +2283,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:ministral-14b-2512",
@@ -2315,7 +2315,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:ministral-14b-latest",
@@ -2347,7 +2347,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:ministral-3b-2512",
@@ -2379,7 +2379,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:ministral-3b-latest",
@@ -2411,7 +2411,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:ministral-8b-2512",
@@ -2443,7 +2443,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:ministral-8b-latest",
@@ -2475,7 +2475,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-code-fim-latest",
@@ -2507,7 +2507,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-code-latest",
@@ -2539,7 +2539,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-embed",
@@ -2571,7 +2571,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-embed-2312",
@@ -2603,7 +2603,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-medium",
@@ -2635,7 +2635,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-medium-2604",
@@ -2667,7 +2667,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-medium-3",
@@ -2699,7 +2699,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-medium-3-5",
@@ -2731,7 +2731,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-medium-3.5",
@@ -2763,7 +2763,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-medium-latest",
@@ -2795,7 +2795,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-moderation-2603",
@@ -2827,7 +2827,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-ocr-2512",
@@ -2859,7 +2859,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-ocr-3",
@@ -2891,7 +2891,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-ocr-3-0",
@@ -2923,7 +2923,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-ocr-4",
@@ -2955,7 +2955,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-ocr-4-0",
@@ -2987,7 +2987,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-ocr-4-1",
@@ -3019,7 +3019,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-ocr-latest",
@@ -3051,7 +3051,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-small-2603",
@@ -3083,7 +3083,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-small-latest",
@@ -3115,7 +3115,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-vibe-cli-fast",
@@ -3147,7 +3147,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-vibe-cli-latest",
@@ -3179,7 +3179,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:mistral-vibe-cli-with-tools",
@@ -3211,7 +3211,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:voxtral-mini-2602",
@@ -3243,7 +3243,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:voxtral-mini-latest",
@@ -3275,7 +3275,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:voxtral-mini-realtime-2602",
@@ -3307,7 +3307,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:voxtral-mini-realtime-latest",
@@ -3339,7 +3339,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:voxtral-mini-transcribe-realtime-2602",
@@ -3371,7 +3371,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:voxtral-mini-tts-2603",
@@ -3403,7 +3403,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:voxtral-mini-tts-latest",
@@ -3435,7 +3435,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:voxtral-small-2507",
@@ -3467,7 +3467,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "mistral:voxtral-small-latest",
@@ -3499,7 +3499,7 @@
         "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
         "label": "Mistral API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:babbage-002",
@@ -3531,7 +3531,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:chat-latest",
@@ -3563,7 +3563,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:chatgpt-image-latest",
@@ -3595,7 +3595,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:davinci-002",
@@ -3627,7 +3627,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-3.5-turbo",
@@ -3659,7 +3659,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-0125",
@@ -3691,7 +3691,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-1106",
@@ -3723,7 +3723,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-16k",
@@ -3755,7 +3755,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-instruct",
@@ -3787,7 +3787,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-3.5-turbo-instruct-0914",
@@ -3819,7 +3819,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4.1",
@@ -3851,7 +3851,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4.1-2025-04-14",
@@ -3883,7 +3883,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4.1-mini",
@@ -3915,7 +3915,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4.1-mini-2025-04-14",
@@ -3947,7 +3947,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4.1-nano",
@@ -3979,7 +3979,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4.1-nano-2025-04-14",
@@ -4011,7 +4011,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o",
@@ -4043,7 +4043,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-2024-05-13",
@@ -4075,7 +4075,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-2024-08-06",
@@ -4107,7 +4107,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-2024-11-20",
@@ -4139,7 +4139,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini",
@@ -4171,7 +4171,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini-2024-07-18",
@@ -4203,7 +4203,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini-search-preview",
@@ -4235,7 +4235,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini-search-preview-2025-03-11",
@@ -4267,7 +4267,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini-transcribe",
@@ -4299,7 +4299,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini-transcribe-2025-03-20",
@@ -4331,7 +4331,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini-transcribe-2025-12-15",
@@ -4363,7 +4363,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini-tts",
@@ -4395,7 +4395,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini-tts-2025-03-20",
@@ -4427,7 +4427,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-mini-tts-2025-12-15",
@@ -4459,7 +4459,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-search-preview",
@@ -4491,7 +4491,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-search-preview-2025-03-11",
@@ -4523,7 +4523,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-transcribe",
@@ -4555,7 +4555,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-4o-transcribe-diarize",
@@ -4587,7 +4587,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5",
@@ -4619,7 +4619,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-2025-08-07",
@@ -4651,7 +4651,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-chat-latest",
@@ -4683,7 +4683,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-codex",
@@ -4715,7 +4715,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-mini",
@@ -4747,7 +4747,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-mini-2025-08-07",
@@ -4779,7 +4779,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-nano",
@@ -4811,7 +4811,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-nano-2025-08-07",
@@ -4843,7 +4843,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-pro",
@@ -4875,7 +4875,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-pro-2025-10-06",
@@ -4907,7 +4907,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-search-api",
@@ -4939,7 +4939,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5-search-api-2025-10-14",
@@ -4971,7 +4971,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.1",
@@ -5003,7 +5003,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.1-2025-11-13",
@@ -5035,7 +5035,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.1-chat-latest",
@@ -5067,7 +5067,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.1-codex",
@@ -5099,7 +5099,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.1-codex-max",
@@ -5131,7 +5131,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.1-codex-mini",
@@ -5163,7 +5163,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.2",
@@ -5195,7 +5195,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.2-2025-12-11",
@@ -5227,7 +5227,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.2-chat-latest",
@@ -5259,7 +5259,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.2-codex",
@@ -5291,7 +5291,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.2-pro",
@@ -5323,7 +5323,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.2-pro-2025-12-11",
@@ -5355,7 +5355,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.3-chat-latest",
@@ -5387,7 +5387,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.3-codex",
@@ -5419,7 +5419,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.4",
@@ -5451,7 +5451,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.4-2026-03-05",
@@ -5483,7 +5483,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.4-mini",
@@ -5515,7 +5515,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.4-mini-2026-03-17",
@@ -5547,7 +5547,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.4-nano",
@@ -5579,7 +5579,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.4-nano-2026-03-17",
@@ -5611,7 +5611,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.4-pro",
@@ -5643,7 +5643,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.4-pro-2026-03-05",
@@ -5675,7 +5675,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.5",
@@ -5707,7 +5707,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.5-2026-04-23",
@@ -5739,7 +5739,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.5-pro",
@@ -5771,7 +5771,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.5-pro-2026-04-23",
@@ -5803,7 +5803,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.6-luna",
@@ -5835,7 +5835,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.6-sol",
@@ -5867,7 +5867,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-5.6-terra",
@@ -5899,7 +5899,39 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
+    },
+    {
+      "id": "openai:gpt-6-astra",
+      "provider": "openai",
+      "name": "gpt-6-astra",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      },
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-audio",
@@ -5931,7 +5963,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-audio-1.5",
@@ -5963,7 +5995,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-audio-2025-08-28",
@@ -5995,7 +6027,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-audio-mini",
@@ -6027,7 +6059,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-audio-mini-2025-10-06",
@@ -6059,7 +6091,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-audio-mini-2025-12-15",
@@ -6091,7 +6123,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-image-1",
@@ -6123,7 +6155,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-image-1-mini",
@@ -6155,7 +6187,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-image-1.5",
@@ -6187,7 +6219,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-image-2",
@@ -6219,7 +6251,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-image-2-2026-04-21",
@@ -6251,7 +6283,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-live-transcribe",
@@ -6283,7 +6315,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime",
@@ -6315,7 +6347,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime-1.5",
@@ -6347,7 +6379,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime-2",
@@ -6379,7 +6411,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime-2.1",
@@ -6411,7 +6443,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime-2.1-mini",
@@ -6443,7 +6475,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime-2025-08-28",
@@ -6475,7 +6507,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime-mini",
@@ -6507,7 +6539,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime-mini-2025-12-15",
@@ -6539,7 +6571,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime-translate",
@@ -6571,7 +6603,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-realtime-whisper",
@@ -6603,7 +6635,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:gpt-transcribe",
@@ -6635,7 +6667,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:o1",
@@ -6667,7 +6699,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:o1-2024-12-17",
@@ -6699,7 +6731,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:o3",
@@ -6731,7 +6763,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:o3-2025-04-16",
@@ -6763,7 +6795,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:o3-mini",
@@ -6795,7 +6827,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:o3-mini-2025-01-31",
@@ -6827,7 +6859,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:o4-mini",
@@ -6859,7 +6891,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:o4-mini-2025-04-16",
@@ -6891,7 +6923,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:omni-moderation-2024-09-26",
@@ -6923,7 +6955,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:omni-moderation-latest",
@@ -6955,7 +6987,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:sora-2",
@@ -6987,7 +7019,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:sora-2-pro",
@@ -7019,7 +7051,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:text-embedding-3-large",
@@ -7051,7 +7083,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:text-embedding-3-small",
@@ -7083,7 +7115,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:text-embedding-ada-002",
@@ -7115,7 +7147,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:tts-1",
@@ -7147,7 +7179,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:tts-1-1106",
@@ -7179,7 +7211,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:tts-1-hd",
@@ -7211,7 +7243,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:tts-1-hd-1106",
@@ -7243,7 +7275,7 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     },
     {
       "id": "openai:whisper-1",
@@ -7275,14 +7307,14 @@
         "url": "https://platform.openai.com/docs/models",
         "label": "OpenAI API"
       },
-      "observedAt": "2026-09-04T08:00:54.773Z"
+      "observedAt": "2026-09-05T07:42:09.045Z"
     }
   ],
   "runs": [
     {
       "provider": "openai",
       "status": "succeeded",
-      "models": 118
+      "models": 119
     },
     {
       "provider": "anthropic",
