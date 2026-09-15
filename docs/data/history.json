@@ -11681,5 +11681,66 @@
       "url": "https://platform.openai.com/docs/models",
       "label": "OpenAI API"
     }
+  },
+  {
+    "id": "2026-09-15T08:43:48.689Z:google:antigravity-preview-05-2026:CONTEXT_CHANGED:contextWindow",
+    "type": "CONTEXT_CHANGED",
+    "modelId": "google:antigravity-preview-05-2026",
+    "provider": "google",
+    "field": "contextWindow",
+    "before": 131072,
+    "after": 1048576,
+    "occurredAt": "2026-09-15T08:43:48.689Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
+  },
+  {
+    "id": "2026-09-15T08:43:48.689Z:google:antigravity-preview-09-2026:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "google:antigravity-preview-09-2026",
+    "provider": "google",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "google:antigravity-preview-09-2026",
+      "provider": "google",
+      "name": "Antigravity Agent Preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "occurredAt": "2026-09-15T08:43:48.689Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
   }
 ]
