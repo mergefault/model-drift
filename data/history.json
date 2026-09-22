@@ -11834,5 +11834,52 @@
       "url": "https://ai.google.dev/gemini-api/docs/models",
       "label": "Google Gemini API"
     }
+  },
+  {
+    "id": "2026-09-22T08:35:32.748Z:google:antigravity-preview-latest:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "google:antigravity-preview-latest",
+    "provider": "google",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "google:antigravity-preview-latest",
+      "provider": "google",
+      "name": "Antigravity Agent Preview Latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "occurredAt": "2026-09-22T08:35:32.748Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
   }
 ]
