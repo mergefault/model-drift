@@ -12157,5 +12157,53 @@
       "url": "https://ai.google.dev/gemini-api/docs/models",
       "label": "Google Gemini API"
     }
+  },
+  {
+    "id": "2026-10-14T08:46:12.220Z:google:gemini-4-argon:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "google:gemini-4-argon",
+    "provider": "google",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "google:gemini-4-argon",
+      "provider": "google",
+      "name": "Gemini 4 Argon",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 1048576,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "batchGenerateContent",
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "occurredAt": "2026-10-14T08:46:12.220Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
   }
 ]
