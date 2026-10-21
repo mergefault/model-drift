@@ -12249,5 +12249,357 @@
       "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
       "label": "Mistral API"
     }
+  },
+  {
+    "id": "2026-10-21T08:37:38.092Z:mistral:voxtral-mini-transcribe-3:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "mistral:voxtral-mini-transcribe-3",
+    "provider": "mistral",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "mistral:voxtral-mini-transcribe-3",
+      "provider": "mistral",
+      "name": "voxtral-mini-transcribe-3",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "occurredAt": "2026-10-21T08:37:38.092Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
+  },
+  {
+    "id": "2026-10-21T08:37:38.092Z:mistral:voxtral-mini-transcribe-3-0:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "mistral:voxtral-mini-transcribe-3-0",
+    "provider": "mistral",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "mistral:voxtral-mini-transcribe-3-0",
+      "provider": "mistral",
+      "name": "voxtral-mini-transcribe-3-0",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "occurredAt": "2026-10-21T08:37:38.092Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
+  },
+  {
+    "id": "2026-10-21T08:37:38.092Z:mistral:voxtral-mini-transcribe-realtime-3:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "mistral:voxtral-mini-transcribe-realtime-3",
+    "provider": "mistral",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "mistral:voxtral-mini-transcribe-realtime-3",
+      "provider": "mistral",
+      "name": "voxtral-mini-transcribe-realtime-3",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "occurredAt": "2026-10-21T08:37:38.092Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
+  },
+  {
+    "id": "2026-10-21T08:37:38.092Z:mistral:voxtral-mini-transcribe-realtime-3-0:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "mistral:voxtral-mini-transcribe-realtime-3-0",
+    "provider": "mistral",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "mistral:voxtral-mini-transcribe-realtime-3-0",
+      "provider": "mistral",
+      "name": "voxtral-mini-transcribe-realtime-3-0",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "occurredAt": "2026-10-21T08:37:38.092Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
+  },
+  {
+    "id": "2026-10-21T08:37:38.092Z:mistral:voxtral-mini-tts-3:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "mistral:voxtral-mini-tts-3",
+    "provider": "mistral",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "mistral:voxtral-mini-tts-3",
+      "provider": "mistral",
+      "name": "voxtral-mini-tts-3",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "occurredAt": "2026-10-21T08:37:38.092Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
+  },
+  {
+    "id": "2026-10-21T08:37:38.092Z:mistral:voxtral-mini-tts-3-0:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "mistral:voxtral-mini-tts-3-0",
+    "provider": "mistral",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "mistral:voxtral-mini-tts-3-0",
+      "provider": "mistral",
+      "name": "voxtral-mini-tts-3-0",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "occurredAt": "2026-10-21T08:37:38.092Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
+  },
+  {
+    "id": "2026-10-21T08:37:38.092Z:mistral:voxtral-small-transcribe-3:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "mistral:voxtral-small-transcribe-3",
+    "provider": "mistral",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "mistral:voxtral-small-transcribe-3",
+      "provider": "mistral",
+      "name": "voxtral-small-transcribe-3",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "occurredAt": "2026-10-21T08:37:38.092Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
+  },
+  {
+    "id": "2026-10-21T08:37:38.092Z:mistral:voxtral-small-transcribe-3-0:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "mistral:voxtral-small-transcribe-3-0",
+    "provider": "mistral",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "mistral:voxtral-small-transcribe-3-0",
+      "provider": "mistral",
+      "name": "voxtral-small-transcribe-3-0",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "occurredAt": "2026-10-21T08:37:38.092Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
   }
 ]
