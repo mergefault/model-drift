@@ -12601,5 +12601,143 @@
       "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
       "label": "Mistral API"
     }
+  },
+  {
+    "id": "2026-10-23T08:35:38.271Z:google:veo-3.1-fast-generate-preview:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "google:veo-3.1-fast-generate-preview",
+    "provider": "google",
+    "field": null,
+    "before": {
+      "id": "google:veo-3.1-fast-generate-preview",
+      "provider": "google",
+      "name": "Veo 3.1 fast",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 480,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "predictLongRunning"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-10-23T08:35:38.271Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
+  },
+  {
+    "id": "2026-10-23T08:35:38.271Z:google:veo-3.1-generate-preview:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "google:veo-3.1-generate-preview",
+    "provider": "google",
+    "field": null,
+    "before": {
+      "id": "google:veo-3.1-generate-preview",
+      "provider": "google",
+      "name": "Veo 3.1",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 480,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "predictLongRunning"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-10-23T08:35:38.271Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
+  },
+  {
+    "id": "2026-10-23T08:35:38.271Z:google:veo-3.1-lite-generate-preview:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "google:veo-3.1-lite-generate-preview",
+    "provider": "google",
+    "field": null,
+    "before": {
+      "id": "google:veo-3.1-lite-generate-preview",
+      "provider": "google",
+      "name": "Veo 3.1 lite",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 480,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "predictLongRunning"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-10-23T08:35:38.271Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
   }
 ]
