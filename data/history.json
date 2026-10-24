@@ -12739,5 +12739,19 @@
       "url": "https://ai.google.dev/gemini-api/docs/models",
       "label": "Google Gemini API"
     }
+  },
+  {
+    "id": "2026-10-24T08:11:04.040Z:google:deep-research-pro-preview-12-2025:MODEL_UPDATED:name",
+    "type": "MODEL_UPDATED",
+    "modelId": "google:deep-research-pro-preview-12-2025",
+    "provider": "google",
+    "field": "name",
+    "before": "Deep Research Pro Preview (Dec-12-2025)",
+    "after": "Deep Research Pro Preview (Dec-12-2025) [Rerouted]",
+    "occurredAt": "2026-10-24T08:11:04.040Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
   }
 ]
