@@ -12885,5 +12885,1589 @@
       "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
       "label": "Mistral API"
     }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:babbage-002:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:babbage-002",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:babbage-002",
+      "provider": "openai",
+      "name": "babbage-002",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:davinci-002:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:davinci-002",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:davinci-002",
+      "provider": "openai",
+      "name": "davinci-002",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-3.5-turbo:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-3.5-turbo",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-3.5-turbo",
+      "provider": "openai",
+      "name": "gpt-3.5-turbo",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-3.5-turbo-0125:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-3.5-turbo-0125",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-3.5-turbo-0125",
+      "provider": "openai",
+      "name": "gpt-3.5-turbo-0125",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-3.5-turbo-1106:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-3.5-turbo-1106",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-3.5-turbo-1106",
+      "provider": "openai",
+      "name": "gpt-3.5-turbo-1106",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-3.5-turbo-16k:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-3.5-turbo-16k",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-3.5-turbo-16k",
+      "provider": "openai",
+      "name": "gpt-3.5-turbo-16k",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-3.5-turbo-instruct:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-3.5-turbo-instruct",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-3.5-turbo-instruct",
+      "provider": "openai",
+      "name": "gpt-3.5-turbo-instruct",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-3.5-turbo-instruct-0914:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-3.5-turbo-instruct-0914",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-3.5-turbo-instruct-0914",
+      "provider": "openai",
+      "name": "gpt-3.5-turbo-instruct-0914",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-4.1-nano:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-4.1-nano",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-4.1-nano",
+      "provider": "openai",
+      "name": "gpt-4.1-nano",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-4.1-nano-2025-04-14:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-4.1-nano-2025-04-14",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-4.1-nano-2025-04-14",
+      "provider": "openai",
+      "name": "gpt-4.1-nano-2025-04-14",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-4o-2024-05-13:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-4o-2024-05-13",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-4o-2024-05-13",
+      "provider": "openai",
+      "name": "gpt-4o-2024-05-13",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-4o-mini-search-preview:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-4o-mini-search-preview",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-4o-mini-search-preview",
+      "provider": "openai",
+      "name": "gpt-4o-mini-search-preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-4o-mini-search-preview-2025-03-11:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-4o-mini-search-preview-2025-03-11",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-4o-mini-search-preview-2025-03-11",
+      "provider": "openai",
+      "name": "gpt-4o-mini-search-preview-2025-03-11",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-4o-search-preview:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-4o-search-preview",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-4o-search-preview",
+      "provider": "openai",
+      "name": "gpt-4o-search-preview",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-4o-search-preview-2025-03-11:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-4o-search-preview-2025-03-11",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-4o-search-preview-2025-03-11",
+      "provider": "openai",
+      "name": "gpt-4o-search-preview-2025-03-11",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-5-chat-latest:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-5-chat-latest",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-5-chat-latest",
+      "provider": "openai",
+      "name": "gpt-5-chat-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-5-codex:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-5-codex",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-5-codex",
+      "provider": "openai",
+      "name": "gpt-5-codex",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-5.1-chat-latest:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-5.1-chat-latest",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-5.1-chat-latest",
+      "provider": "openai",
+      "name": "gpt-5.1-chat-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-5.1-codex:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-5.1-codex",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-5.1-codex",
+      "provider": "openai",
+      "name": "gpt-5.1-codex",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-5.1-codex-max:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-5.1-codex-max",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-5.1-codex-max",
+      "provider": "openai",
+      "name": "gpt-5.1-codex-max",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-5.1-codex-mini:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-5.1-codex-mini",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-5.1-codex-mini",
+      "provider": "openai",
+      "name": "gpt-5.1-codex-mini",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-5.2-chat-latest:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-5.2-chat-latest",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-5.2-chat-latest",
+      "provider": "openai",
+      "name": "gpt-5.2-chat-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-5.2-codex:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-5.2-codex",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-5.2-codex",
+      "provider": "openai",
+      "name": "gpt-5.2-codex",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-5.3-chat-latest:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-5.3-chat-latest",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-5.3-chat-latest",
+      "provider": "openai",
+      "name": "gpt-5.3-chat-latest",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-audio-mini-2025-10-06:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-audio-mini-2025-10-06",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-audio-mini-2025-10-06",
+      "provider": "openai",
+      "name": "gpt-audio-mini-2025-10-06",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-image-1:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:gpt-image-1",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:gpt-image-1",
+      "provider": "openai",
+      "name": "gpt-image-1",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-image-2.6-flare:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "openai:gpt-image-2.6-flare",
+    "provider": "openai",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "openai:gpt-image-2.6-flare",
+      "provider": "openai",
+      "name": "gpt-image-2.6-flare",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:gpt-image-2.6-sunburst:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "openai:gpt-image-2.6-sunburst",
+    "provider": "openai",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "openai:gpt-image-2.6-sunburst",
+      "provider": "openai",
+      "name": "gpt-image-2.6-sunburst",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:o1:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:o1",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:o1",
+      "provider": "openai",
+      "name": "o1",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:o1-2024-12-17:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:o1-2024-12-17",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:o1-2024-12-17",
+      "provider": "openai",
+      "name": "o1-2024-12-17",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:o3-mini:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:o3-mini",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:o3-mini",
+      "provider": "openai",
+      "name": "o3-mini",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:o3-mini-2025-01-31:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:o3-mini-2025-01-31",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:o3-mini-2025-01-31",
+      "provider": "openai",
+      "name": "o3-mini-2025-01-31",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:o4-mini:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:o4-mini",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:o4-mini",
+      "provider": "openai",
+      "name": "o4-mini",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:o4-mini-2025-04-16:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:o4-mini-2025-04-16",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:o4-mini-2025-04-16",
+      "provider": "openai",
+      "name": "o4-mini-2025-04-16",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:sora-2:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:sora-2",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:sora-2",
+      "provider": "openai",
+      "name": "sora-2",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-05T10:59:29.578Z:openai:sora-2-pro:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "openai:sora-2-pro",
+    "provider": "openai",
+    "field": null,
+    "before": {
+      "id": "openai:sora-2-pro",
+      "provider": "openai",
+      "name": "sora-2-pro",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-05T10:59:29.578Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
   }
 ]
