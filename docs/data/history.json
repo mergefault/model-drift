@@ -14469,5 +14469,52 @@
       "url": "https://platform.openai.com/docs/models",
       "label": "OpenAI API"
     }
+  },
+  {
+    "id": "2026-11-06T10:57:28.341Z:google:gemini-omni-1.2-flash:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "google:gemini-omni-1.2-flash",
+    "provider": "google",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "google:gemini-omni-1.2-flash",
+      "provider": "google",
+      "name": "Gemini Omni 1.2 Flash",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 131072,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "countTokens",
+        "generateContent"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "occurredAt": "2026-11-06T10:57:28.341Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
   }
 ]
