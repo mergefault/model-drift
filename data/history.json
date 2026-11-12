@@ -14606,5 +14606,51 @@
       "url": "https://ai.google.dev/gemini-api/docs/models",
       "label": "Google Gemini API"
     }
+  },
+  {
+    "id": "2026-11-12T11:18:55.334Z:google:gemini-decision-1:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "google:gemini-decision-1",
+    "provider": "google",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "google:gemini-decision-1",
+      "provider": "google",
+      "name": "Gemini Decision 1",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": 262144,
+      "maxOutputTokens": 1,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [
+        "createDecision"
+      ],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://ai.google.dev/gemini-api/docs/models",
+        "label": "Google Gemini API"
+      }
+    },
+    "occurredAt": "2026-11-12T11:18:55.334Z",
+    "evidence": {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "label": "Google Gemini API"
+    }
   }
 ]
