@@ -14788,5 +14788,181 @@
       "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
       "label": "Mistral API"
     }
+  },
+  {
+    "id": "2026-11-18T11:48:03.479Z:mistral:labs-leanstral-1-5:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "mistral:labs-leanstral-1-5",
+    "provider": "mistral",
+    "field": null,
+    "before": {
+      "id": "mistral:labs-leanstral-1-5",
+      "provider": "mistral",
+      "name": "labs-leanstral-1-5",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-18T11:48:03.479Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
+  },
+  {
+    "id": "2026-11-18T11:48:03.479Z:mistral:labs-leanstral-1-5-1:MODEL_REMOVED:model",
+    "type": "MODEL_REMOVED",
+    "modelId": "mistral:labs-leanstral-1-5-1",
+    "provider": "mistral",
+    "field": null,
+    "before": {
+      "id": "mistral:labs-leanstral-1-5-1",
+      "provider": "mistral",
+      "name": "labs-leanstral-1-5-1",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+        "label": "Mistral API"
+      }
+    },
+    "after": null,
+    "occurredAt": "2026-11-18T11:48:03.479Z",
+    "evidence": {
+      "url": "https://docs.mistral.ai/getting-started/models/models_overview/",
+      "label": "Mistral API"
+    }
+  },
+  {
+    "id": "2026-11-18T11:48:03.479Z:openai:gpt-6.2-astra:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "openai:gpt-6.2-astra",
+    "provider": "openai",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "openai:gpt-6.2-astra",
+      "provider": "openai",
+      "name": "gpt-6.2-astra",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "occurredAt": "2026-11-18T11:48:03.479Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
+  },
+  {
+    "id": "2026-11-18T11:48:03.479Z:openai:gpt-6.2-sol:MODEL_ADDED:model",
+    "type": "MODEL_ADDED",
+    "modelId": "openai:gpt-6.2-sol",
+    "provider": "openai",
+    "field": null,
+    "before": null,
+    "after": {
+      "id": "openai:gpt-6.2-sol",
+      "provider": "openai",
+      "name": "gpt-6.2-sol",
+      "family": null,
+      "status": "active",
+      "releasedAt": null,
+      "contextWindow": null,
+      "maxOutputTokens": null,
+      "modalities": {
+        "input": [],
+        "output": []
+      },
+      "capabilities": [],
+      "availability": [],
+      "pricing": {
+        "currency": "USD",
+        "unit": "million_tokens",
+        "input": null,
+        "cachedInput": null,
+        "output": null,
+        "batchInput": null,
+        "batchOutput": null,
+        "source": null,
+        "observedAt": null
+      },
+      "source": {
+        "url": "https://platform.openai.com/docs/models",
+        "label": "OpenAI API"
+      }
+    },
+    "occurredAt": "2026-11-18T11:48:03.479Z",
+    "evidence": {
+      "url": "https://platform.openai.com/docs/models",
+      "label": "OpenAI API"
+    }
   }
 ]
